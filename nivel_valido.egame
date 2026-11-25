@@ -1,0 +1,9 @@
+// Archivo de prueba oficial - Sprint 1 (US-01 y US-02)
+level "Bosque Oscuro" {
+    grid_size: (100, 50)
+    gravity: 9.8
+
+    spawn PlayerStart at (5, 10)
+    spawn Enemy at (25, 10)
+    spawn Item at (40, 15)
+}
